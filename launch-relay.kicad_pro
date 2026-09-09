@@ -661,13 +661,21 @@
         "uuid": "5fd10500-b703-4d79-824f-0c6e126f5ac0"
       }
     ],
-    "used_designators": "U1-2,BT1,C1",
+    "used_designators": "U1-12,#PWR8-9,#PWR11-28,BT1,14v1,C1-18,J2-4,R5-21,Q1-3",
     "variants": []
   },
   "sheets": [
     [
       "5fd10500-b703-4d79-824f-0c6e126f5ac0",
       "Root"
+    ],
+    [
+      "addbacb5-96f0-480b-8d40-7447d1e9cbba",
+      "Circuit Switch1"
+    ],
+    [
+      "fb24dfdc-7b1a-4430-ae68-8c300a39c9f8",
+      "Circuit Switch2"
     ]
   ],
   "text_variables": {},
