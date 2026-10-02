@@ -3588,16 +3588,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 59.69) (xy 45.72 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "274ea22c-28ea-4a26-9d6e-88782f5ee8ca")
-	)
-	(wire
-		(pts
 			(xy 66.04 130.81) (xy 85.09 130.81)
 		)
 		(stroke
@@ -4558,7 +4548,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 59.69) (xy 31.75 59.69)
+			(xy 20.32 59.69) (xy 45.72 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4877,7 +4867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "002d8c57-e6d2-4b87-bbfe-b86a300c6921")
-		(property "Reference" "R17"
+		(property "Reference" "R2"
 			(at 39.37 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4897,7 +4887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 39.37 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4939,7 +4929,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R17")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4956,7 +4946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1651b015-93d3-40ac-bfdd-47b3f9332b2c")
-		(property "Reference" "R15"
+		(property "Reference" "R7"
 			(at 86.36 50.292 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4976,7 +4966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.36 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5018,7 +5008,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R15")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5036,7 +5026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1676e67c-7511-4f85-9a1d-a1f458f20d7d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR012"
 			(at 167.64 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5096,7 +5086,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR05")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5113,7 +5103,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fb64a1a-9318-44ce-8616-892bb120c5e8")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 80.01 138.176 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,7 +5113,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 80.01 139.954 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5133,7 +5123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.01 137.668 90)
 			(hide yes)
 			(show_name no)
@@ -5175,7 +5165,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5193,7 +5183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "255d90a8-24f4-40f6-b5f4-b908c71d344a")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 20.32 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5215,7 +5205,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 17.78 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -5257,7 +5247,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5275,7 +5265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c289561-55ac-4431-b91b-e24809527c09")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 58.42 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5335,86 +5325,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 34.29 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2caf710d-89b6-4951-8f96-3ac74eb6bd65")
-		(property "Reference" "R18"
-			(at 34.29 57.912 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 34.29 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 34.29 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 34.29 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "717f6f27-82d8-4b02-a7b4-0f61cf3b78d1")
-		)
-		(pin "1"
-			(uuid "60498895-4109-4551-a6f0-7fa8265590cb")
-		)
-		(instances
-			(project "launch-relay"
-				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R18")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5431,7 +5342,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2de4a108-544d-4973-807d-15e3eae46f53")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 78.486 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,7 +5352,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 78.74 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5451,7 +5362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 78.74 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -5493,7 +5404,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5511,7 +5422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fb91e8a-e52e-4921-a0e6-dc1b28280655")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 24.13 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5571,7 +5482,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5589,7 +5500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31225981-2e0a-4ffb-9cd6-9a8e453fbe41")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR02"
 			(at 17.78 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5649,7 +5560,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR011")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5667,7 +5578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37ba4256-906a-486e-9a06-61b4b9055237")
-		(property "Reference" "R5"
+		(property "Reference" "R11"
 			(at 127 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5729,7 +5640,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R5")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5747,7 +5658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b42c4f7-e169-4a80-91fc-321378a96d72")
-		(property "Reference" "C2"
+		(property "Reference" "C8"
 			(at 198.12 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5767,7 +5678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 198.12 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5809,7 +5720,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "C2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5827,7 +5738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "430a83aa-c357-4bd0-99c9-fea698a10120")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 161.29 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5909,7 +5820,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5926,7 +5837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bf1ce1a-5bba-4abf-acd6-e52428153f0a")
-		(property "Reference" "R21"
+		(property "Reference" "R4"
 			(at 78.74 48.768 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5946,7 +5857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 78.74 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5988,7 +5899,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R21")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6005,7 +5916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63488a47-bd72-40c7-b4bb-9e33b4466c1a")
-		(property "Reference" "C1"
+		(property "Reference" "C5"
 			(at 69.85 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6027,7 +5938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.0052 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6069,7 +5980,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "C1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6087,7 +5998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63a645d7-35a1-4ba7-9efe-6522db5e8df7")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 198.12 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6107,7 +6018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 198.12 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6149,7 +6060,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6167,7 +6078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "686c2cf5-ed57-4039-bf95-597149402e58")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 149.86 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6227,7 +6138,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR016")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6245,7 +6156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75c7b904-c664-43c5-bb95-9a732ae84d03")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR07"
 			(at 92.71 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6305,7 +6216,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR017")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6323,7 +6234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c446e18-30a1-4c51-8e35-8d7a63d89657")
-		(property "Reference" "R3"
+		(property "Reference" "R9"
 			(at 106.68 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6343,7 +6254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.68 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -6385,7 +6296,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6484,7 +6395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d042bd6-0389-4f24-b923-c2fb245a9861")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR01"
 			(at 15.24 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6544,7 +6455,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR015")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6639,7 +6550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96a8c2aa-6aab-47e1-80f5-ee891c9400db")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 116.332 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6712,7 +6623,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6730,7 +6641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99a4299f-37b6-4843-8cf4-ae3de7b8f72f")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 29.21 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6752,7 +6663,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 26.67 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -6794,7 +6705,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6812,7 +6723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a79fa45-b187-4a45-98be-ed3ef15873bf")
-		(property "Reference" "R6"
+		(property "Reference" "R12"
 			(at 191.77 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6834,7 +6745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.23 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6876,7 +6787,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R6")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7025,7 +6936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4d76490-f872-4f53-9f98-4fce928707b2")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 205.74 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7085,7 +6996,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7102,7 +7013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abfb5440-6fa1-4225-a10c-90e4683cc3f0")
-		(property "Reference" "R19"
+		(property "Reference" "R3"
 			(at 39.37 60.452 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7122,7 +7033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 39.37 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7164,7 +7075,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R19")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7182,7 +7093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7ef64d9-f47b-4416-ac35-1e72bbc6509b")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 170.18 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7204,7 +7115,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.64 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7246,7 +7157,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7264,7 +7175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0dcdca8-391e-4f10-894a-f97d2520edad")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 140.97 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7324,7 +7235,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR02")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7342,7 +7253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6de8359-d1e1-4aac-958e-afdcb1c2b8ec")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 180.34 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7421,7 +7332,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7438,7 +7349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7d67e39-d841-4db9-bb2d-a11ca0b37a59")
-		(property "Reference" "R16"
+		(property "Reference" "R8"
 			(at 86.36 56.642 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7458,7 +7369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.36 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7500,7 +7411,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R16")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7518,7 +7429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cafc4896-7f12-4c5d-ba24-774d17a3c32e")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR014"
 			(at 205.74 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7578,7 +7489,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR01")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7596,7 +7507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb00ca52-d89f-468a-a6dc-df582e5fb643")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 40.64 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7618,7 +7529,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 38.1 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -7660,7 +7571,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7677,7 +7588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1f40984-320f-4933-b75d-97bf476d64d6")
-		(property "Reference" "R4"
+		(property "Reference" "R10"
 			(at 106.68 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7697,7 +7608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.68 69.088 90)
 			(hide yes)
 			(show_name no)
@@ -7739,7 +7650,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R4")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7757,7 +7668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d52bea8b-d738-47ab-983e-9b98c295d82d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR013"
 			(at 189.23 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7817,7 +7728,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR07")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7834,7 +7745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d68d8204-b9d3-4df8-a8c0-bdfc0b27f99a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR06"
 			(at 85.09 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7894,7 +7805,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7912,7 +7823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7b24829-41ab-42a4-a217-baeef722ef97")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 66.04 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -7972,7 +7883,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7990,7 +7901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd791d67-9349-4caf-b764-828c8694457e")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 50.8 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8012,7 +7923,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -8054,7 +7965,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8072,7 +7983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e92a1aa4-b9cc-4ead-9555-ed7537a14d59")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 60.5633 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8230,7 +8141,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8247,7 +8158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef94c8d6-6149-40f7-bea8-5342e6de6163")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 115.57 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,7 +8231,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8338,7 +8249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efd4e14e-3b13-4d76-855e-ced16a7fc822")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 52.07 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8412,7 +8323,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8430,7 +8341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f51e62-cd28-4175-b29f-90c0ac40652c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 123.19 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8490,7 +8401,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8507,7 +8418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbf33146-5683-4c59-82a6-2c37da53171e")
-		(property "Reference" "R20"
+		(property "Reference" "R1"
 			(at 17.018 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8527,7 +8438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 15.24 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8569,7 +8480,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0"
-					(reference "R20")
+					(reference "R1")
 					(unit 1)
 				)
 			)

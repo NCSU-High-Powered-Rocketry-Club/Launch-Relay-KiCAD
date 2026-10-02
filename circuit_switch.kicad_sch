@@ -2815,7 +2815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "225f03bb-8d12-4ce1-a705-3b0eb74bc831")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 40.64 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2880,11 +2880,11 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2901,7 +2901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2adcd0cd-a5dc-4595-b98d-b9cf63117340")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 133.858 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2981,7 +2981,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
@@ -3003,7 +3003,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "37097519-c3fb-473f-96fb-ea9c0696ea46")
-		(property "Reference" "C21"
+		(property "Reference" "C11"
 			(at 90.17 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3025,7 +3025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.63 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3067,11 +3067,11 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "C21")
+					(reference "C11")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
-					(reference "C22")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3089,7 +3089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42b46d15-7f82-4867-8e4d-1b0b34a64ae7")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 52.705 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3162,7 +3162,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "U7")
+					(reference "U4")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
@@ -3184,7 +3184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ddddb12-50b4-46aa-bbf7-c530b7749a63")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 54.61 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3255,7 +3255,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
@@ -3277,7 +3277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8322de79-ab37-4aa9-9dd9-31b075a5a443")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 143.51 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3297,7 +3297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 143.51 84.582 90)
 			(hide yes)
 			(show_name no)
@@ -3339,11 +3339,11 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3361,7 +3361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8680f60a-c6e6-4901-85aa-f1f015c1b2eb")
-		(property "Reference" "C9"
+		(property "Reference" "C12"
 			(at 99.06 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3423,11 +3423,11 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3445,7 +3445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bb6105a-c797-47d2-b6c7-e447f49e436d")
-		(property "Reference" "C17"
+		(property "Reference" "C14"
 			(at 133.35 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3465,7 +3465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.35 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3507,11 +3507,11 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "C17")
+					(reference "C14")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3722,7 +3722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b70d1424-f4d0-4da0-9289-135404cb7944")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 72.39 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3744,7 +3744,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.628 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -3786,11 +3786,11 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
-					(reference "R11")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3808,7 +3808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf6311e0-c920-4123-8e1b-09ac63127388")
-		(property "Reference" "R7"
+		(property "Reference" "R13"
 			(at 40.64 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3828,7 +3828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 84.582 90)
 			(hide yes)
 			(show_name no)
@@ -3870,11 +3870,11 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "R7")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
-					(reference "R10")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3892,7 +3892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8e7aac4-d15a-45fd-b213-25d43031efff")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 118.11 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3957,7 +3957,7 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
@@ -3978,7 +3978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1814fcd-79f8-4367-97c0-d8bf3c27ea23")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 22.098 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3998,7 +3998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 27.94 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4040,11 +4040,11 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4084,7 +4084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 74.93 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4130,7 +4130,7 @@
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4148,7 +4148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb425f1d-b8ab-4816-84ef-a67bf381c524")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 118.11 24.638 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4168,7 +4168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 118.11 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4210,11 +4210,11 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
-					(reference "C15")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4232,7 +4232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8be2bbb-8b6e-4c70-b86d-d31e64aa233b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 43.18 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4292,11 +4292,11 @@
 		(instances
 			(project "launch-relay"
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/addbacb5-96f0-480b-8d40-7447d1e9cbba"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/5fd10500-b703-4d79-824f-0c6e126f5ac0/fb24dfdc-7b1a-4430-ae68-8c300a39c9f8"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
